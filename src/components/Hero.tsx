@@ -22,7 +22,6 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            {/* LINK DO CHECKOUT AQUI EMBAIXO 👇 */}
             <a 
               href="https://pay.kirvano.com/4670148e-2f51-43e9-8a53-68e5a6e3787d"
               target="_blank"
@@ -33,9 +32,13 @@ export default function Hero() {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
             
-            <button className="text-gray-700 hover:text-emerald-600 px-8 py-4 rounded-xl font-semibold text-lg transition-colors border-2 border-gray-300 hover:border-emerald-600">
+            {/* AQUI ESTÁ O BOTÃO QUE ROLA PARA BAIXO 👇 */}
+            <a 
+              href="#exemplos"
+              className="text-gray-700 hover:text-emerald-600 px-8 py-4 rounded-xl font-semibold text-lg transition-colors border-2 border-gray-300 hover:border-emerald-600 cursor-pointer flex items-center justify-center"
+            >
               Ver Alimentos Permitidos
-            </button>
+            </a>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
