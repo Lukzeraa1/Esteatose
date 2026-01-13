@@ -22,10 +22,17 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <button className="group bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all shadow-lg hover:shadow-xl hover:scale-105 flex items-center gap-2">
+            {/* LINK DO CHECKOUT AQUI EMBAIXO 👇 */}
+            <a 
+              href="https://pay.kirvano.com/4670148e-2f51-43e9-8a53-68e5a6e3787d"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all shadow-lg hover:shadow-xl hover:scale-105 flex items-center gap-2 cursor-pointer"
+            >
               Quero Meu Guia Alimentar Agora
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </a>
+            
             <button className="text-gray-700 hover:text-emerald-600 px-8 py-4 rounded-xl font-semibold text-lg transition-colors border-2 border-gray-300 hover:border-emerald-600">
               Ver Alimentos Permitidos
             </button>
