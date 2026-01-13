@@ -2,7 +2,8 @@ import { CheckCircle2, XCircle, AlertTriangle } from 'lucide-react';
 
 export default function FoodCategories() {
   return (
-    <section className="py-20 px-6 bg-white">
+    // ADICIONEI O ID="exemplos" AQUI EMBAIXO 👇
+    <section id="exemplos" className="py-20 px-6 bg-white scroll-mt-20">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -95,7 +96,6 @@ export default function FoodCategories() {
             Estes são apenas alguns exemplos. O guia completo contém mais de 50 alimentos!
           </p>
           
-          {/* BOTÃO TRANSFORMADO EM LINK 👇 */}
           <a 
             href="https://pay.kirvano.com/4670148e-2f51-43e9-8a53-68e5a6e3787d"
             target="_blank"
