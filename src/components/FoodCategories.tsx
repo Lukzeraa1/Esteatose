@@ -14,6 +14,7 @@ export default function FoodCategories() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
+          {/* Coluna Verde */}
           <div className="bg-emerald-50 rounded-2xl p-8 border-2 border-emerald-200">
             <div className="flex items-center gap-3 mb-6">
               <CheckCircle2 className="w-8 h-8 text-emerald-600" />
@@ -38,6 +39,7 @@ export default function FoodCategories() {
             </ul>
           </div>
 
+          {/* Coluna Amarela */}
           <div className="bg-yellow-50 rounded-2xl p-8 border-2 border-yellow-200">
             <div className="flex items-center gap-3 mb-6">
               <AlertTriangle className="w-8 h-8 text-yellow-600" />
@@ -62,6 +64,7 @@ export default function FoodCategories() {
             </ul>
           </div>
 
+          {/* Coluna Vermelha */}
           <div className="bg-red-50 rounded-2xl p-8 border-2 border-red-200">
             <div className="flex items-center gap-3 mb-6">
               <XCircle className="w-8 h-8 text-red-600" />
@@ -91,9 +94,16 @@ export default function FoodCategories() {
           <p className="text-lg text-gray-600 mb-6">
             Estes são apenas alguns exemplos. O guia completo contém mais de 50 alimentos!
           </p>
-          <button className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all shadow-lg hover:shadow-xl hover:scale-105">
+          
+          {/* BOTÃO TRANSFORMADO EM LINK 👇 */}
+          <a 
+            href="https://pay.kirvano.com/4670148e-2f51-43e9-8a53-68e5a6e3787d"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all shadow-lg hover:shadow-xl hover:scale-105 cursor-pointer"
+          >
             Quero Acesso ao Guia Completo
-          </button>
+          </a>
         </div>
       </div>
     </section>
