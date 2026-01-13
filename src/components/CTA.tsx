@@ -44,10 +44,16 @@ export default function CTA() {
             ))}
           </div>
 
-          <button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-6 rounded-xl font-bold text-xl transition-all shadow-lg hover:shadow-xl hover:scale-105 flex items-center justify-center gap-3 mb-6">
+          {/* AQUI ESTÁ A MUDANÇA: Agora é um Link (<a>) em vez de botão (<button>) */}
+          <a 
+            href="https://pay.kirvano.com/4670148e-2f51-43e9-8a53-68e5a6e3787d" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-6 rounded-xl font-bold text-xl transition-all shadow-lg hover:shadow-xl hover:scale-105 flex items-center justify-center gap-3 mb-6 cursor-pointer"
+          >
             Garantir Meu Acesso Agora
             <ArrowRight className="w-6 h-6" />
-          </button>
+          </a>
 
           <div className="grid grid-cols-3 gap-4 text-center text-sm text-gray-600">
             <div className="flex flex-col items-center gap-2">
